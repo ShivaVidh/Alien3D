@@ -1,0 +1,10 @@
+trigger:
+- '*'
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+- task: gitmirror@0//You can install this task in marketplace
+  inputs:
+    GitRepoUrl: 'https://github.com/ShivaVidh/Alien3D.git'
